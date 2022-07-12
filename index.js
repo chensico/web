@@ -63,12 +63,7 @@ $("h1").slideUp().slideDown().animate({opacity:0.8});
 
 
 })
-$("img").on ("click",function() {
-   
-    $("img").slideUp().slideDown().animate({opacity:0.8});
-    
-    
-    })
+
 
     $("button").on ("click",function() {
    
