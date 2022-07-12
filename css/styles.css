@@ -1,0 +1,191 @@
+body{
+    background-color: #cde6e6;
+}
+
+h2{
+    color: rgb(67, 64, 203);
+   font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: xx-large;
+ 
+}
+h1{
+ 
+  padding-bottom: 1.5ex;
+}
+
+
+.lan{
+
+  color: rgb(6, 21, 52);
+     font-weight: inherit;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: x-large;
+  
+}
+
+hr{background-color: white;
+  border-style: inset;
+border-color: rgb(158, 158, 162);
+height: 3px;
+width: 95%;
+}
+.wan{
+  background-color: rgb(223, 227, 233);
+}
+
+a {
+  
+  transition: background-color 0.3s;
+  border-radius: 15%;
+
+
+}
+
+a:hover {
+  background-color: rgb(69, 106, 243);
+}
+
+
+
+
+.photo{   
+    
+    background-color: burlywood;
+
+     border-radius: 30%;
+      
+    padding: 5px;
+    width: 300px;}
+.photo2{   
+    background-color: burlywood;
+     border-radius: 50%;
+      
+    padding: 5px;
+    width: 250px;}
+    .photo0{   
+     
+       border-radius: 80%;
+        
+     
+      width: 25px;}
+    
+ 
+      
+      .btn:hover {
+        background: #2f9af1;
+        
+      }
+
+      .n{font-size: 18px;
+        margin: auto;
+
+      }
+      .bottom-container{  margin-left: 2% ;
+    
+    }
+    .em{
+      
+      margin-left: 8rem;
+        
+
+    }
+      h4{
+        text-align: center;
+      }
+     
+      .navbar-brand{
+        margin-left: 2ex;
+       font: 1em sans-serif;
+      
+    }
+
+    #title{
+        background-color: rgb(190, 198, 223);
+        color: #fff;
+    }
+   #features{
+     padding: 5% 10%;
+
+   }
+
+   .feature-box1{
+     text-align: center;
+     padding: 1%;
+   }
+
+
+   .wechat{
+     font-size: 1.7rem;
+     color: #19a0da;
+     padding-top: 0%;
+     
+   }
+   .wechat:hover {
+    color: rgb(33, 189, 93);
+    font-size: 2.2rem;
+   
+
+   }
+.nav-item{
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+
+    }
+    #testimonial{
+      padding: 7% 15%;
+      text-align: center;
+      background-color: #d1dade;
+    
+
+    }
+ #cta{
+  background-color: #97afc3;
+  color:#b5c7ce;
+  padding: 7% 15%;
+
+ } 
+    
+
+.bottom-container{
+  margin-left: 30px;
+}
+.love{
+  text-align: center;
+  padding-left: 0.5em;
+
+}
+.love1{
+ 
+  padding-left: 30px ;
+ 
+}
+.route{
+  transform: rotate(5deg);
+  width: 530px;
+  height:330 ;
+  top: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 0rem;
+}
+.route1{
+  
+  width: 400px;
+  top: 0rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
+}
+.oi{
+  font-size: xx-large;
+  padding-top: 1000px;
+}
+.g1{
+  width: 320px;
+  height: 210px;
+}
+.g2{
+  height: 170px;
+}
+
