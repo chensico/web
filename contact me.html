@@ -5,28 +5,96 @@
    
     <title>contact</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </head>
-<body>
+
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+
+      <a class="navbar-brand" href=""> my webpage</a>
+
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    
+    
+    <ul class="navbar-nav ms-auto"> 
+      <li class="nav-item">
+          <a class="nav-link"  href="index.html"><ion-icon name="albums-sharp" class="wechat"></ion-icon>resume</a>
+       </li>
+
+        <li class="nav-item">
+           <a class="nav-link" href="BOOT.html"><ion-icon name="call-sharp" class="wechat"></ion-icon> my web example</a>
+        </li>
+       
+   
+
+            
+         <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/sicong-chen-5872631b0/"><ion-icon name="logo-linkedin" class="wechat"></ion-icon> LinkedIn</a>
+
+        
+       </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="https://twitter.com/SicongChen8"><ion-icon name="logo-twitter" class="wechat" ></ion-icon>Twitter</a>
+
+      
+     </li>
+
+          <li class="nav-item">
+            <a class="nav-link"  href="hobby.html"> <ion-icon name="arrow-undo-sharp"class="wechat"></ion-icon>come back to my project</a>
+         </li>
+
+    </ul>
+
+    </div>
+</nav>
+<br>
+<body >
+
+
+
+<div class="ven">
+
     <img class="photo" src="photo3.jpg" alt="">
+    <br>
+    
+    <br>
 
 
-    <h1> contact detail</h1>
-    <p> address:2120 cowell blvd</p>
-    <p> number:5307606267</p>
+  
+    <p><button type="button" class="btn btn-secondary btn"> <ion-icon name="location-sharp" ></ion-icon> address:</button> 2120 cowell blvd</p>
+  
+    <p><button type="button" class="btn btn-secondary btn"><ion-icon name="call-outline"></ion-icon> number:</button> 5307606267</p>
 
    
-    <p> email: sicchen@ucdavis.edu</p>
+    <p><button type="button" class="btn btn-secondary btn"><ion-icon name="mail"></ion-icon>  email:</button> sicchen@ucdavis.edu</p>
+
+    <h1 class="wechat"><ion-icon name="chatbubble-ellipses-outline"></ion-icon> contact detail</h1>
+  
+
+
+
+
+
     <form  action="mailto:chensicong8@gmail.com" method="post" enctype="text/plain" >
-        <label> Your name:</label>
+
+        <label> <ion-icon name="person-sharp"></ion-icon>Your name:</label>
         <input type="text" name="yourname" value="">
           <br>
-        <label> Your email:</label>
+        <label> <ion-icon name="mail"></ion-icon>Your email:</label>
         <input type="email" name="youremail" value=""> 
         <br>
-        <label> message:</label>
+        <label><ion-icon name="archive-sharp"></ion-icon> message:</label>
         <br>
         <textarea name="yourmessage" rows="10" cols="20">  </textarea>
         <br>
@@ -46,9 +114,9 @@
     </form>
     
     <br>
-    <a class="btn" href="index.html"><ion-icon name="arrow-undo-sharp"></ion-icon>come back to last page</a>
+   
     
-    
+</div>
 </body>
 <br>
     <br>
