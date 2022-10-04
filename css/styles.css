@@ -1,12 +1,18 @@
 body{
-    background-color: #cde6e6;
+    background-color: #a6e5e5;
 }
+
 
 h2{
     color: rgb(67, 64, 203);
    font-family: 'Parisienne', cursive;
     text-align: center;
     font-size: xx-large;
+ 
+}
+
+.qwe{
+  font-family:Georgia, 'Times New Roman', Times, serif
  
 }
 h1{
@@ -33,7 +39,7 @@ height: 3px;
 width: 95%;
 }
 .wan{
-  background-color: rgb(223, 227, 233);
+  background-color: rgb(213, 218, 226);
 }
 
 a {
@@ -58,22 +64,32 @@ a:hover {
      border-radius: 30%;
       
     padding: 5px;
-    width: 300px;}
+    width: 335px;
+    margin-left: 1rem;}
+    
+
 .photo2{   
     background-color: burlywood;
-     border-radius: 50%;
+     border-radius: 20%;
       
     padding: 5px;
-    width: 250px;}
+    width: 300px;
+    margin-left: 1rem;}
+
     .photo0{   
      
        border-radius: 80%;
         
      
-      width: 25px;}
+      width: 21px;
+      margin-left: 1rem;}
     
  
-      
+      .card1{
+        margin-top: 1.5rem;
+        
+        margin-left: 1.5rem;
+      }
       .btn:hover {
         background: #2f9af1;
         
@@ -88,7 +104,27 @@ a:hover {
     }
     .em{
       
-      margin-left: 8rem;
+      margin-left: 6rem;
+        
+
+    }
+
+    .em3{
+      
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    
+      
+        
+
+    }
+
+    .emg{
+      
+      margin-left: 1.3rem;
+      margin-right: 3.5rem;
+      
+      
         
 
     }
@@ -103,8 +139,8 @@ a:hover {
     }
 
     #title{
-        background-color: rgb(190, 198, 223);
-        color: #fff;
+        background-color: rgb(239, 186, 159);
+        color: rgb(219, 49, 49);
     }
    #features{
      padding: 5% 10%;
@@ -143,7 +179,7 @@ a:hover {
     }
  #cta{
   background-color: #97afc3;
-  color:#b5c7ce;
+  color:#143b4b;
   padding: 7% 15%;
 
  } 
