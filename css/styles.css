@@ -155,12 +155,13 @@ a:hover {
 
    .wechat{
      font-size: 1.7rem;
-     color: #19a0da;
+     color: rgb(23, 74, 242);
      padding-top: 0%;
      
    }
    .wechat:hover {
-    color: rgb(33, 189, 93);
+   
+    color: #170475;
     font-size: 2.2rem;
    
 
